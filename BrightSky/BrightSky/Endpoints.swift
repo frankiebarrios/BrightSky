@@ -11,7 +11,7 @@ struct Constants {
     struct Urls {
         // OpenWeatherMap weatherByCity endpoint
         static func weatherByCity(city: String) -> URL? {
-            return URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(city.escaped())&appid=47ca94ae76012d2fef0bdc5466c6b361")
+            return URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(city.escaped())&appid=APIKeyGoesHere")
         }
         
         // Include weatherByZip endpoint if support added
